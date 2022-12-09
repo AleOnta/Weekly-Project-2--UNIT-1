@@ -4,58 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Amazon Web Page - WeeklyProject#2</title>
   </head>
   <body>
     <header>
-      <div>
+      <div id="amz_logo">
         <img src="./assets/logo.png" alt="Amazon logo" />
       </div>
-      <nav>
-        <h3><a href="">All</a></h3>
-        <h3><a href="">Today's deals</a></h3>
-        <h3><a href="">Customer Service</a></h3>
-        <h3><a href="">Registry</a></h3>
-        <h3><a href="">Gift Cards</a></h3>
-        <h3><a href="">Sell</a></h3>
+      <nav class="bg-dark">
+        <h3><a href="#">All</a></h3>
+        <h3><a href="#">Today's deals</a></h3>
+        <h3><a href="#">Customer Service</a></h3>
+        <h3><a href="#">Registry</a></h3>
+        <h3><a href="#">Gift Cards</a></h3>
+        <h3><a href="#">Sell</a></h3>
       </nav>
     </header>
     <main>
       <div class="bg-yellow text-center py-1">
         <span>Shop All Holiday Gift Cards</span>
       </div>
-      <div>
-        <img src="./assets/bg-image.png" alt="Top banner with some decorations" />
+      <div class="top_banner text-center">
+        <h2 class="text-center">Holiday Gift Guides</h2>
+        <p class="text-center">Be a go-gifter</p>
       </div>
-      <section class="perfect_gift">
-        <article>
-          <img src="./assets/img_1.jpg" alt="E-reader photo" />
-        </article>
-        <article>
-          <img src="./assets/img_2.jpg" alt="Laptop on sale!" />
-        </article>
-        <article>
-          <img src="./assets/img_3.jpg" alt="Two differents smartwatch" />
-        </article>
-        <article>
-          <img src="./assets/img_4.jpg" alt="A dog & a cat" />
-        </article>
-      </section>
-      <div>
-        <img src="./assets/img_9.png" alt="VR Oculus with some pads" />
-        <p>Play the gifting game</p>
-        <a href="#">Shop Gaming</a>
+      <div class="perfect_gift text-center">
+        <div id="perfect_gift_text">
+          <h3>Find the perfect gift</h3>
+          <p><a href="#">Shop now</a></p>
+        </div>
+        <div class="card c_1"></div>
+        <div class="card c_2"></div>
+        <div class="card c_3"></div>
+        <div class="card c_4"></div>
       </div>
-      <div>
-        <img src="./assets/img_10.png" alt="Some different products as a headset, a stereo and a pair of glasses." />
-        <p>The sound of the cheer</p>
-        <a href="#">Shop Audio & Accessories</a>
+      <div class="image_box">
+        <div class="box_1 text-center"></div>
+        <h3>Play the gifting game</h3>
+        <p><a href="#">Shop Gaming</a></p>
       </div>
+      <div class="image_box">
+        <div class="box_2 text-center"></div>
+        <h3>The sound of the cheer</h3>
+        <p><a href="#">Shop Audio & Accessories</a></p>
+      </div>
+    </main>
+    <footer>
       <div class="bg-dark text-center py-1">
         <span><a href="">Back to top</a></span>
       </div>
-    </main>
-    <footer></footer>
+      <div class="lower_banner">
+        <img id="lower_logo" src="./assets/logo.png" alt="Amazon logo" />
+      </div>
+    </footer>
   </body>
   <script src="./D5_v2/D5.js"></script>
 </html>

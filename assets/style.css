@@ -1,0 +1,210 @@
+body {
+  width: 1900px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eaeded;
+}
+
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+
+.bg-dark {
+  color: #eaeded;
+  background-color: #222f3e;
+}
+
+.bg-yellow {
+  color: #eaeded;
+  background-color: #f56600;
+  width: 100%;
+  margin-bottom: 2.2rem;
+  font-size: 1.2rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+header {
+  width: 100%;
+}
+
+header > div {
+  background-color: #131921;
+}
+
+#amz_logo {
+  width: 100%;
+  height: 60px;
+}
+
+#amz_logo > img {
+  width: 6%;
+  display: block;
+  text-align: left;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+nav {
+  width: 100%;
+  height: 2rem;
+  text-align: left;
+  margin-bottom: 2.2rem;
+}
+
+nav h3 {
+  display: inline-block;
+  padding-left: 2rem;
+  padding-top: 8px;
+}
+
+nav a {
+  color: #eaeded;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+main {
+  width: 96%;
+  margin: 0 2rem;
+}
+
+.top_banner {
+  background-image: url(../assets/bg-image.png);
+  background-size: contain;
+  height: 250px;
+  margin-bottom: 2.2rem;
+}
+
+.top_banner > h2 {
+  color: #eaeded;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-top: 5%;
+}
+
+.top_banner > p {
+  color: #eaeded;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-top: 2%;
+}
+
+.perfect_gift {
+  height: 470px;
+  background-color: white;
+  margin-bottom: 2.2rem;
+}
+
+#perfect_gift_text {
+  text-align: left;
+  padding-left: 2.2rem;
+  padding-top: 1.1rem;
+}
+
+#perfect_gift_text > h3 {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+#perfect_gift_text > p {
+  display: inline-block;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+#perfect_gift_text a {
+  text-decoration: none;
+  color: #007185;
+}
+
+.card {
+  width: 21%;
+  height: 400px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  border-radius: 6%;
+  -webkit-box-shadow: 5px 5px 10px -4px #545454;
+  box-shadow: 5px 5px 10px -4px #545454;
+  margin: 10px 30px;
+}
+
+.c_1 {
+  background-image: url(../assets/img_1.jpg);
+}
+
+.c_2 {
+  background-image: url(../assets/img_2.jpg);
+}
+
+.c_3 {
+  background-image: url(../assets/img_3.jpg);
+}
+
+.c_4 {
+  background-image: url(../assets/img_4.jpg);
+}
+
+.image_box {
+  margin-bottom: 2.2rem;
+}
+
+.box_1 {
+  width: 100%;
+  height: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assets/img_9.png);
+}
+
+.box_2 {
+  width: 100%;
+  height: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assets/img_10.png);
+}
+
+.image_box > h3 {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-top: 0.5rem;
+}
+
+.image_box > p {
+  display: inline-block;
+  font-size: 1rem;
+  padding-left: 1.2rem;
+  padding-top: 0.5rem;
+}
+
+.image_box a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #007185;
+}
+
+footer {
+  width: 100%;
+}
+
+footer a {
+  color: #eaeded;
+}
+
+.lower_banner {
+  width: 100%;
+  background-color: #131921;
+  height: 150px;
+}
+
+#lower_logo {
+  width: 10%;
+  padding-top: 46px;
+}
