@@ -115,6 +115,7 @@ main {
   display: inline-block;
   font-size: 1rem;
   padding-left: 0.5rem;
+  font-weight: 700;
 }
 
 #perfect_gift_text a {
