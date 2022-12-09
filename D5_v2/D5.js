@@ -151,20 +151,68 @@ const numericCharactersArray = [];
 for (let i = 0; i < charactersArray.length; i++) {
   const element = charactersArray[i];
   switch (element) {
+    case "a":
+      numericCharactersArray.push(1);
+      break;
+    case "b":
+      numericCharactersArray.push(2);
+      break;
+    case "c":
+      numericCharactersArray.push(3);
+      break;
+    case "d":
+      numericCharactersArray.push(4);
+      break;
+    case "e":
+      numericCharactersArray.push(5);
+      break;
+    case "f":
+      numericCharactersArray.push(6);
+      break;
     case "g":
       numericCharactersArray.push(7);
+      break;
+    case "h":
+      numericCharactersArray.push(8);
+      break;
+    case "i":
+      numericCharactersArray.push(9);
+      break;
+    case "l":
+      numericCharactersArray.push(10);
+      break;
+    case "m":
+      numericCharactersArray.push(11);
       break;
     case "n":
       numericCharactersArray.push(12);
       break;
+    case "o":
+      numericCharactersArray.push(13);
+      break;
+    case "p":
+      numericCharactersArray.push(14);
+      break;
+    case "q":
+      numericCharactersArray.push(15);
+      break;
+    case "r":
+      numericCharactersArray.push(16);
+      break;
+    case "s":
+      numericCharactersArray.push(17);
+      break;
+    case "t":
+      numericCharactersArray.push(18);
+      break;
     case "u":
       numericCharactersArray.push(19);
       break;
+    case "v":
+      numericCharactersArray.push(20);
+      break;
     case "z":
       numericCharactersArray.push(21);
-      break;
-    case "d":
-      numericCharactersArray.push(4);
       break;
   }
 }
