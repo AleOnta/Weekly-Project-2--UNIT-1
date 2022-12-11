@@ -1,5 +1,5 @@
 body {
-  width: 100vw;
+  width: 99vw;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #eaeded;
@@ -74,16 +74,28 @@ main {
 
 .top_banner {
   background-image: url(../assets/bg-image.png);
+  background-repeat: repeat;
+  height: 200px;
+  margin-bottom: 2.2rem;
+}
+
+/* 
+QUESTO E' UN ALTRO METODO CHE AVREI UTILIZZATO PER MOSTRARE L'IMMAGINE DEL
+TOP-BANNER SENZA REPEAT:
+  
+.top_banner {
+  background-image: url(../assets/bg-image.png);
   background-size: contain;
   height: 250px;
   margin-bottom: 2.2rem;
 }
+*/
 
 .top_banner > h2 {
   color: #eaeded;
   font-size: 1.8rem;
   font-weight: 700;
-  padding-top: 5%;
+  padding-top: 4%;
 }
 
 .top_banner > p {
@@ -94,7 +106,8 @@ main {
 }
 
 .perfect_gift {
-  height: 470px;
+  height: auto;
+  max-height: 940px;
   background-color: white;
   margin-bottom: 2.2rem;
 }
@@ -125,6 +138,7 @@ main {
 
 .card {
   width: 21%;
+  min-width: 300px;
   height: 400px;
   display: inline-block;
   background-size: cover;
